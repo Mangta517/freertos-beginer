@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/27795/**)",
+      "Bash(find .claude -type f -name *.json)",
+      "Edit(~/.claude/skills/embedded-c-best-practices/**)",
+      "Edit(~/.claude/skills/arm-cortex-m-development/**)",
+      "Edit(~/.claude/skills/freertos-rtos-usage/**)",
+      "Edit(~/.claude/skills/peripheral-driver-development/**)",
+      "Edit(~/.claude/skills/hardware-debugging-tips/**)",
+      "Edit(~/.claude/skills/firmware-ota-process/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\27795\\.claude\\skills"
+    ]
+  }
+}

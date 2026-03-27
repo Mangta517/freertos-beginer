@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(rm -rf .claude/skills_test)",
+      "Bash(mkdir -p .claude/skills_test)",
+      "Bash(mv .claude/skills .claude/skills_backup)",
+      "Bash(mv .claude/skills_test .claude/skills)",
+      "WebFetch(domain:skills.sh)"
+    ]
+  }
+}
